@@ -1,0 +1,22 @@
+{
+  "trainingInput": {
+    "scaleTier": "CUSTOM",
+    "masterType": "standard_gpu",
+    "hyperparameters": {
+        "goal": "MAXIMIZE",
+        "hyperparameterMetricTag": accuracy,
+        "params": [
+          {
+            "parameterName": "num-epochs",
+            "type": "INTEGER",
+            "minValue": "4",
+            "maxValue": "20",
+            "scaleType": "UNIT_LINEAR_SCALE"
+          }
+        ],
+        "maxTrials": 10,
+        "maxParallelTrials": 1,
+        "enableTrialEarlyStopping": True
+    }
+  }
+}

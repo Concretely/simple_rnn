@@ -1,0 +1,10 @@
+setup.py
+simplernn.egg-info/PKG-INFO
+simplernn.egg-info/SOURCES.txt
+simplernn.egg-info/dependency_links.txt
+simplernn.egg-info/requires.txt
+simplernn.egg-info/top_level.txt
+trainer/__init__.py
+trainer/model.py
+trainer/task.py
+trainer/config/__init__.py
